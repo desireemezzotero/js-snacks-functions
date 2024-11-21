@@ -4,10 +4,14 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function array (names) { 
+  names = 'ciao';
+  return names
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(array(name), name)
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
