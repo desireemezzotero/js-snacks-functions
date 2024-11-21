@@ -7,13 +7,9 @@ function array(name) {
   let newArray = [];
   const letter = 'A';
 
-  for (let i = 0; i <= name.length; i++) {
-
-   if (name[i].at(0) == letter) {
+  for (let i = 0; i < name.length; i++) {
+   if (name[i].charAt(0) === letter) {
     newArray.push(name[i]);
-    console.log(newArray);
-    } else {
-    newArray = [];
     }
   }
   return newArray;
